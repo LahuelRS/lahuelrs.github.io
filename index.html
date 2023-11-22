@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="es-AR">
+<head>
+    <meta charset="UTF-8">
+    <meta language="es-AR">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="robots" content="nofollow,noindex">
+
+    <meta property="og:title" content="Curriculum Vitae 2023">
+	<meta property="og:url" content="https://lahuelrs.github.io/">
+	<meta property="og:description" content="Curriculum Vitae con portfolio de LahuelRS - HTML, CSS y JS - 2023 - Version 1.1">
+	<meta property="og:locale" content="es_AR">
+
+    <link rel="stylesheet" type="text/css" href="styles/styles.css">
+
+    <link rel="apple-touch-icon" sizes="180x180" href="icons/apple-touch-icon.png">
+	<link rel="icon" type="image/png" sizes="32x32" href="icons/favicon-32x32.png">
+	<link rel="icon" type="image/png" sizes="16x16" href="icons/favicon-16x16.png">
+
+    <script rel="javascript" src="scripts/scripts.js" defer></script>
+    <script src="https://kit.fontawesome.com/03ef575486.js" crossorigin="anonymous"></script>
+
+    <title>LRS - Desarrollador</title>
+</head>
+
+<body>
+    <div id="customAlert" class="custom-alert">
+        <span id="closeBtn" class="close-btn">&times;</span>
+        <p id="alertContent"></p>
+    </div>
+    <header>
+        <div class="container-btn-mode">
+            <div id="id-sun" class="btn-mode sun active">
+                <i class="fa-solid fa-sun"></i>
+            </div>
+            <div id="id-moon" class="btn-mode moon">
+                <i class="fa-solid fa-moon"></i>
+            </div>
+        </div>
+    </header>
+    <div class="main-container" id="main-container">
+        <div class="left-container">
+            <div class="photo-container">
+				<img class="profile-picture" id="picture" src="/pictures/foto_perfil_128x128.png" alt="Fotografia de perfil">
+            </div>
+            <div class="names">
+				<h2 id="fullname">Lahuel, ROMÁN STELLA.<br>
+            </div>
+            <div class="contact-buttons">
+                     <span class="fa-solid fa-phone fa-xl" id="phone-icon" alt="icono de teléfono"> </span>                    
+                     <span class="fa-regular fa-envelope fa-xl" id="mail-icon" alt="icono de correo electrónico"> </span>                
+                     <span class="fa-brands fa-linkedin fa-xl" id="linkedin-icon" alt="icono de Linkedin"> </span>
+                     <span class="fa-brands fa-github fa-xl" id="github-icon" alt="icono de GitHub"></span>
+            </div>
+        </div>
+        <div class="right-container">
+            <div class="portfolio">
+                <h2 class="title">Portfolio:</h2>
+                <div class="projects">
+                    <div class="project" id="odin-recipes">
+                        <a href="https://lahuelrs.github.io/odin-recipes/">
+                            <img id="odin-recipes-img" src="/pictures/odin_foto_100x100.png" alt="captura de pantalla para proyecto Odin Recipes.">
+                        
+                        <p class=project-description>HTML+CSS+.JS: Odin_Recipes, recetas gastronómicas.</p>
+                    </a>
+                    </div>
+                    <div class="project" id="python-analysis">
+                        <a href="https://colab.research.google.com/drive/1eUJ_swt4yCXSQzrGB_EjbApoeiGDWreb?hl=es">
+                            <img id="python-analysis-img" src="/pictures/analisis_foto_100x100.png" alt="captura de pantalla al proyecto de análisis de datos con Python.">
+                            <p class=project-description>Python+Pandas: Análisis del S.A.D.I. del día 01/09/2023.</p>
+                        </a>                        
+                    </div>
+                    <div class="project" id="dynamic-cv">
+                        <a href="https://github.com/LahuelRS/LahuelRS_old.github.io">
+                            <img id="dynamic-cv-img" src="/pictures/cv_foto_100x100.png" alt="captura de pantalla para proyecto de Curriculum Vitae Dinámico.">
+                            <p class=project-description>HTML+CSS+.JS: Curriculum Vitae generado dinámicamente.</p>
+                        </a>                    
+                    </div>
+                </div>
+            </div>
+            <div class="knowledge-container">
+                <h2 class="title">Conocimientos:</h2>
+                    <ul class="knowledge-list">
+                        <li>HTML5 <i class="fab fa-html5"></i></li>
+                        <li>CSS <i class="fab fa-css3-alt"></i></li>
+                        <li>Javascript <i class="fab fa-js-square"></i></li>
+                        <li>Python <i class="fab fa-python"></i></li>
+                        <li>C++ <i class="fa-solid fa-gears"></i></li>
+                        <li>ASM (micro-controladores) <i class="fa-solid fa-microchip"></i></li>
+                        <li>Español (nativo)</li>
+                        <li>Inglés (C1)</li>
+                        <li>Alemán (A1)</li>
+                    </ul>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
